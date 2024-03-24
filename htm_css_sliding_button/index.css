@@ -1,0 +1,64 @@
+body {
+    background-color: #d9f4d6;;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    background: linear-gradient(to right, rgb(89, 43, 226), rgb(192, 138, 243));
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    color: transparent; 
+    /* For Safari browser not needed for chrome */
+    /* -webkit-text-fill-color: transparent;  */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* gap: 0px; */
+    margin-top: 20px; 
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px; 
+    font-weight: 500;
+    font-size: 1.1em; 
+    cursor: pointer;
+/*  over lapping the buttons */
+    margin-left: -25px;
+    width: 6.5rem;
+    height: 2.8rem;
+/*  controls the speed of the overlap move */
+    transition: transform 0.9s ease;
+}
+
+.sign-up {
+    background-color: rgb(76, 175, 80); 
+    color: white; 
+/*  higher # brings item to front, if z index is not specified it is 0 */
+    z-index: 2;
+}
+
+.log-in {
+    background-color: #ffffff;
+    color: rgb(89, 43, 226);
+}
+
+.sign-up:hover {
+    background-color: rgb(89, 43, 226); 
+    color: #ffffff;
+/* control how far the button moves across page hor by the origi X- axis*/
+/* x axis y axis = page width (horozontal) or page height (vertical) this is also used in ps and adobe ai to move items incrementally across a page */
+    transform: translateX(105px);
+}
+
+.log-in:hover {
+    background-color: rgb(192, 138, 243); 
+    color: #ffffff;
+    transform: translateX(-105px);
+    z-index: 2;
+}

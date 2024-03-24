@@ -1,0 +1,77 @@
+/* *  */
+
+body {
+    background-color: rgb(219, 188, 249);
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    background: linear-gradient(to right, rgb(89, 43, 226), rgb(192, 138, 243)); /* Gradient from dark to light */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Make the text color transparent to show the background */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+/* h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(89, 43, 226);
+    text-align: center;
+    font-size: 4rem;
+} */
+
+button {
+    background-color: rgb(192, 138, 243);
+}
+
+.button {
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: solid 2.5px blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0px 5px;
+    width: 6.5em;
+    height: 3em;
+    font-size: larger;
+    margin: 18px;
+}
+
+button:hover {
+    background-color: rgb(226, 14, 14);
+    color: #ffffff;
+    border: solid rgb(226, 14, 14);
+    transform: scale(1.25);
+}
+
+#special {
+    background-color: blueviolet;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#special:hover {
+    background-color: rgb(75, 200, 9);
+    border: solid rgb(75, 200, 9);
+    transform: scale(1.25);
+    /* transform: translateX(-50%) scale(1.15); */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    text-align: center;
+}
+
+.button {
+    margin: 30px; /* Add some space between the buttons */
+}
+
+/* #special id can be added to html and then .css to cusomize a button class thats already styled */

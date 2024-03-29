@@ -6,9 +6,9 @@ body {
     height: 100vh;
     margin: 0;
     /* use w Monet */
-    background-color: #d7f2f8;
+    background-color: #e5c7fa;
+    /* background-color: #d7f2f8; */
     /* background-color: rgb(189, 219, 246); */
-    /* background-color: #e5c7fa; */
   }
   
   .card {
@@ -78,9 +78,9 @@ body {
   .profile-picture-container:hover .profile-hover-picture {
     opacity: 1;
     transform: rotate(360deg) scale(1.5);
-    border: 6px solid rgb(113, 180, 239);
+    /* border: 6px solid rgb(113, 180, 239); */
     /* use w Monet */
-    /* border: 6px solid  blueviolet; */
+    border: 6px solid  blueviolet;
   }
   
   /* .profile-picture-container:hover .profile-picture {
@@ -96,8 +96,8 @@ body {
     font-weight: 500;
     font-size: 1.8em;
     /* use w Monet */
-    /* color: blueviolet; */
-    color: rgb(14, 133, 237);
+    color: blueviolet;
+    /* color: rgb(14, 133, 237); */
   }
   
   /* consolidate on one line */
@@ -142,7 +142,7 @@ body {
   
   .HoverToFindMe:hover {
     /* use w Monet */
-    /* background-color: #3ed415; */
-    background-color: rgb(14, 133, 237);
+    background-color: blueviolet;
+    /* background-color: rgb(14, 133, 237); */
     transform: scale(1.25);
   }
